@@ -1,2 +1,4 @@
-## Big-Data-Projet
-# Moulin David - Gaildry Arthur - Sébastien Bertrand
+# Big-Data-Projet
+### Moulin David - Gaildry Arthur - Bertrand Sébastien
+
+Détection de fraude sur des opérations bancaire. 
