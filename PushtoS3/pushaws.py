@@ -7,6 +7,9 @@ def percent_cb(complete, total):
     sys.stdout.write('.')
     sys.stdout.flush()
 
+#AWS_ACCES_KEY_ID see on AWS educate when starting lab
+#AWS_SECRET_ACCESS_KEY see on AWS educate when starting lab
+
 AWS_ACCESS_KEY_ID = ''
 AWS_SECRET_ACCESS_KEY = ''
 
