@@ -14,7 +14,7 @@ On souhaite créer un modèle d'apprentissage capable d'identifier des opératio
 Pour cela nous allons utiliser des algorithmes d'apprentissage supervisés.
 
 
-Le Dossier Data-Analysis contient les notebooks des 3 méthodes utilisées : 
+Le Dossier Data-Analysis contient les notebooks des 4 méthodes utilisées : 
 
 * Arbre de décision 
 * SVM
