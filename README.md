@@ -19,6 +19,7 @@ Le Dossier Data-Analysis contient les notebooks des 3 méthodes utilisées :
 * Arbre de décision 
 * SVM
 * Réseaux de neurones
+* K-neighbors
 
 Le dossier PushToS3 contient le script qui permet de mettre les fichiers csv sur un bucket d'AWS.
 
