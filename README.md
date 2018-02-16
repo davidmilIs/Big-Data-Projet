@@ -23,4 +23,4 @@ Le Dossier Data-Analysis contient les notebooks des 3 méthodes utilisées :
 
 Le dossier PushToS3 contient le script qui permet de mettre les fichiers csv sur un bucket d'AWS.
 
-
+Le code_export permet de transferer les fichiers de la vm hadoop depuis hdfs sur notre machine physique à l'aide de connection et de transfert ssh scp, ce qui nous permet de récuperer integralement les fichiers test,train et predict .csv en définissant au préalable le port et l'ip concerné, cela à été vérifié à l'aide de putty.
