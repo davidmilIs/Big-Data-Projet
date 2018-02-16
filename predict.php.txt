@@ -1,0 +1,24 @@
+<?php
+ $file = 'predict_TreeDecision.csv';
+ 
+ $data = file_get_contents($file);
+
+
+$row = 1;
+if (($handle = fopen("predict_TreeDecision.csv", "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+        $num = count($data);
+        echo "$num champs à la ligne $row: \n";
+        $row++;
+        for ($c=0; $c < $num; $c++) {
+            echo $data[$c] . "\n";
+        }
+
+    }
+$command = 'mongoimport -d predict -c banque --type csv --file predict_TreeDecision.csv --headerline
+';
+
+exec($command);
+    fclose($handle);
+}
+?>
