@@ -12,3 +12,14 @@ Nous disposons de données bancaires divisées en trois parties :
 On souhaite créer un modèle d'apprentissage capable d'identifier des opérations frauduleuses.
 
 Pour cela nous allons utiliser des algorithmes d'apprentissage supervisés.
+
+
+Le Dossier Data-Analysis contient les notebooks des 3 méthodes utilisées : 
+
+* Arbre de décision 
+* SVM
+* Réseaux de neurones
+
+Le dossier PushToS3 contient le script qui permet de mettre les fichiers csv sur un bucket d'AWS.
+
+
